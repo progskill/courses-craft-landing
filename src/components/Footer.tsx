@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, GitHub } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -26,7 +25,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <GitHub size={20} />
+                <Github size={20} />
               </a>
             </div>
           </div>
